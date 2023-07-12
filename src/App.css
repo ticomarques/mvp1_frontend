@@ -76,12 +76,7 @@ height:100vh;
   margin: 10px;
   padding: 20px;
 }
-.list-rachadinhas:first-child {
-  margin-left:0;
-}
-.item:last {
-  margin-right:0
-}
+.item:hover {filter: drop-shadow(0 0 0.3rem gold);}
 .item h3 {
   font-size:30px;
   margin:5px;
