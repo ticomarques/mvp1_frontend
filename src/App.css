@@ -1,0 +1,115 @@
+.container {
+width:100%;
+height:100vh;
+}
+
+
+
+.bg-video {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  opacity: .8;
+  overflow: hidden;
+}
+.bg-video-content {
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+      width: 100%;
+      object-fit: cover;
+}
+
+.box-texto {
+  display: flex;
+
+  position:absolute;
+  top: 10%;
+  left:40%;
+
+  font-family: Roboto;
+  font-weight: 500;
+  color:#FFD700;
+  font-size: 60px;
+}
+
+.bt-entrar {
+  position:absolute;
+  top:70%;
+  left:60%;
+}
+
+
+/* Container APP */
+
+.container-app {
+  width: 100%;
+  height:100vh;
+}
+
+.container-search {
+  width:100%;
+  padding: 6px 0px 6px 20px;
+  background-color: gold;
+}
+
+.container-rachadinhas {
+  margin: 20px auto 0;
+}
+
+.add-rachadinhas {
+  padding: 0 0 10px 10px;
+}
+
+.list-rachadinhas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.item {
+  width: 50%;
+  background-color: #F6f6f6;
+  border: 1px solid #e5e5e5;
+  margin: 10px;
+  padding: 20px;
+}
+.list-rachadinhas:first-child {
+  margin-left:0;
+}
+.item:last {
+  margin-right:0
+}
+.item h3 {
+  font-size:30px;
+  margin:5px;
+}
+.item a {
+   color: gold;
+   font-sie:9px;
+   margin:2px 0px 2px 5px;
+}
+.item p {
+   margin: 6px;
+   font-size:16px;
+}
+.preco {
+  font-size:18px;
+  color: green;
+  font-weight:bold;
+}
+
+
+/* MODAL */
+
+.form-add-rachadinha {
+
+}
+
+.form-add-rachadinha input {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+}
