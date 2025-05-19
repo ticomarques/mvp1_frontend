@@ -3,9 +3,10 @@
 O rachadinha.com é uma ferramenta que nasceu com objetivo de democratizar o acesso a produtos, permitindo que pessoas possam rachar o valor e produtos. A ferramenta é simples, e de fácil uso, basta criar uma rachadinha e aguardar que outros usuários entrem na rachadinha.
 
 
-# Frontend tecnologias
+# Back-end e Front-end tecnologias
 
-O frontend deste projeto foi desenvolido em ReactJS, fazendo uso de componentes de dominio publico. Todas as dependencias podem ser consultadas no arquivo package.json.
+O back-end foi desenvolvido em python, virtual env, flask, SQLAlchemy, SQlite e FlaskOpenAPI3 (pydantic, swagger, redoc, rapiDoc).
+O front-end foi desenvolvido em ReactJS.
 
 ## Scripts de execução do projeto
 
